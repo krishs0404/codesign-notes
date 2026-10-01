@@ -1,0 +1,27 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local secrets and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+
+# Large local artifacts
+artifacts/
+data/
+checkpoints/
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+*.pt
+*.pth
+*.safetensors
